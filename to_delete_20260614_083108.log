@@ -1,0 +1,268 @@
+﻿================================================================================
+Cleanup-Log
+================================================================================
+Skript                    : cleanup.ps1
+Autor                     : Stefan Homberg
+Startzeit                 : 2026-06-14 08:31:21
+Benutzer                  : ZEROBIT-BLADE\zerob
+Computer                  : ZEROBIT-BLADE
+PowerShell-Version        : 5.1.26100.8655
+PowerShell-Edition        : Desktop
+Interaktiver Lauf         : Ja
+Automatisierung           : Nicht vorgesehen / wird bewusst blockiert
+DryRun                    : True
+WhatIfPreference          : False
+MinimumAgeInYears         : 5
+FileCutoffDate Eingabe    : 
+Datei-Schwellen-Datum     : 06/14/2021 00:00:00
+Datei-Schwellen-Quelle    : Standard: Heute minus 5 Jahre
+Leere Verzeichnisse       : Unabhaengig vom Alter
+LogPath                   : C:\Users\zerob\Documents\ibb\powershell\cleanup\20260614\to_delete_20260614_083108.log
+Kandidatendatei-Ordner    : C:\Users\zerob\Documents\ibb\powershell\cleanup\20260614
+ACHTUNG                   : Bei echtem Lauf werden protokollierte Eintraege endgueltig geloescht.
+================================================================================
+
+[2026-06-14 08:31:21.326] INFO	Aufgeloeste Eingabepfade:
+[2026-06-14 08:31:21.328] INFO	PATH	C:\Users\zerob\Documents
+[2026-06-14 08:31:21.357] MODE	DryRun aktiv. Keine Loeschungen.
+[2026-06-14 08:31:21.360] INFO	Kandidatendatei erstellt	Typ=file	Pfad=C:\Users\zerob\Documents\ibb\powershell\cleanup\20260614\cleanup_candidates_file_ce427e6c9aa24f568e22c603be9b1f24.jsonl
+[2026-06-14 08:31:21.383] FIND_FILE_START	Pfad=C:\Users\zerob\Documents
+[2026-06-14 08:31:21.411] SKIP	ReparsePoint/SymbolicLink-Verzeichnis nicht traversiert	Pfad=C:\Users\zerob\Documents\Eigene Bilder
+[2026-06-14 08:31:21.412] SKIP	ReparsePoint/SymbolicLink-Verzeichnis nicht traversiert	Pfad=C:\Users\zerob\Documents\Eigene Musik
+[2026-06-14 08:31:21.412] SKIP	ReparsePoint/SymbolicLink-Verzeichnis nicht traversiert	Pfad=C:\Users\zerob\Documents\Eigene Videos
+[2026-06-14 08:31:21.537] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\x64\ExporterHost.dll	LastWriteTime=2015-05-29 02:33:34
+[2026-06-14 08:31:21.564] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\x64\ExporterHost.dll	LastWriteTime=2015-05-29 02:33:34
+[2026-06-14 08:31:21.577] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\info\DIC Swatch ReadMe.pdf	LastWriteTime=2015-05-29 00:05:02
+[2026-06-14 08:31:21.578] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\info\How-To CFF Extension.pdf	LastWriteTime=2007-07-14 18:51:28
+[2026-06-14 08:31:21.581] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\Config\DisplayLanguageNames.de_CH.txt	LastWriteTime=2015-05-29 01:04:38
+[2026-06-14 08:31:21.582] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\Config\DisplayLanguageNames.el_GR_PREEURO.txt	LastWriteTime=2015-05-29 01:04:38
+[2026-06-14 08:31:21.586] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\Config\msg_30.txt	LastWriteTime=2013-05-20 22:07:50
+[2026-06-14 08:31:21.589] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Config\DisplayLanguageNames.de_CH.txt	LastWriteTime=2015-05-29 01:04:38
+[2026-06-14 08:31:21.590] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Config\DisplayLanguageNames.el_GR_PREEURO.txt	LastWriteTime=2015-05-29 01:04:38
+[2026-06-14 08:31:21.592] FOUND_FILE	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Config\msg_30.txt	LastWriteTime=2013-05-20 22:07:50
+[2026-06-14 08:31:21.661] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\kobo_oezlem_demir.png	LastWriteTime=2015-07-28 08:59:50
+[2026-06-14 08:31:21.662] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\kobo_oezlem_demir.psd	LastWriteTime=2015-07-27 11:39:12
+[2026-06-14 08:31:21.664] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\kobo_oezlem_demir.svg	LastWriteTime=2015-07-28 07:08:10
+[2026-06-14 08:31:21.666] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\rademir_stempel.png	LastWriteTime=2015-07-28 07:50:30
+[2026-06-14 08:31:21.667] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\rademir_stempel.psd	LastWriteTime=2015-07-27 11:40:24
+[2026-06-14 08:31:21.668] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\stempel_01.svg	LastWriteTime=2015-07-28 07:47:32
+[2026-06-14 08:31:21.669] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\vk.png	LastWriteTime=2015-07-28 09:00:04
+[2026-06-14 08:31:21.670] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\vk.svg	LastWriteTime=2015-07-28 08:40:36
+[2026-06-14 08:31:21.670] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\vk_back.jpg	LastWriteTime=2015-07-27 11:39:58
+[2026-06-14 08:31:21.673] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\print\kobo_oezlem_demir.jpg	LastWriteTime=2015-07-27 09:34:40
+[2026-06-14 08:31:21.674] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\print\rademir_stempel.png	LastWriteTime=2015-07-27 09:59:42
+[2026-06-14 08:31:21.675] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\print\vk_back.jpg	LastWriteTime=2015-07-27 09:57:04
+[2026-06-14 08:31:21.677] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\print\vk_front.jpg	LastWriteTime=2015-07-27 09:56:14
+[2026-06-14 08:31:21.679] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\ansicht\kobo_oezlem_demir.jpg	LastWriteTime=2015-07-27 09:37:42
+[2026-06-14 08:31:21.680] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\ansicht\rademir_stempel.png	LastWriteTime=2015-07-27 09:02:32
+[2026-06-14 08:31:21.681] FOUND_FILE	Pfad=C:\Users\zerob\Documents\oezlem\ansicht\vk_back.jpg	LastWriteTime=2015-07-27 09:58:16
+[2026-06-14 08:31:22.388] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\.babelrc	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.389] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\.eslintrc	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.390] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\index.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.391] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\jest.config.js	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.391] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\package-lock.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.392] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.393] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\README.md	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.398] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\app.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.399] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\client.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.400] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\index.html	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.401] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\package-lock.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.402] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.403] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\tsconfig-client.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.404] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\tsconfig-server.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.406] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\types\NumInfo.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.407] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\dist\client.js	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.408] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\dist\types\NumInfo.js	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.410] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\app.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.411] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\numbers.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.412] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\package-lock.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.413] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.414] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\readFile.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.415] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\readFileByName.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.416] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\strings.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.417] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\tsconfig.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.418] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\writeFile.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.419] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\about.html	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.420] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\app.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.421] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\data.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.422] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\index.html	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.423] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\package-lock.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.424] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.425] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\app.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.426] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\package-lock.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.427] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.428] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\tsconfig.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.430] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\utils\getUniqueId.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.431] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Answer.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.432] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Attachment.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.433] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Image.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.434] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Question.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.435] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Summary.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.436] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Unique.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.437] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\User.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.438] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.440] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\tsconfig.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.440] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\test\array.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.441] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\test\object.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.442] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\test\string.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.443] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\lib\array.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.444] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\lib\object.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.445] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\lib\string.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.447] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\app.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.448] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\package-lock.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.449] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\package.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.450] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\tsconfig.json	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.452] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\utils\genUniqueId.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.452] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\utils\getBudgetSummary.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.453] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\utils\truncate.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.454] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\types\Month.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.455] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\enums\Category.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.456] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\Budget.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.457] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\Expense.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.458] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\TrackedMonth.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:22.459] FOUND_FILE	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\User.ts	LastWriteTime=2020-10-27 15:46:52
+[2026-06-14 08:31:25.009] FOUND_FILE	Pfad=C:\Users\zerob\Documents\bewerbung\ihk_zeugniss.jpg	LastWriteTime=2018-07-29 13:19:26
+[2026-06-14 08:31:25.088] FOUND_FILE	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_film\stefan_malte_homberg_portfolio.mp4	LastWriteTime=2018-05-28 10:06:54
+[2026-06-14 08:31:25.252] PHASE_SUMMARY	Dateisuche abgeschlossen	FoundFileCount=93	ProcessedFileCount=8083	ProcessedDirectoryCount=1796
+[2026-06-14 08:31:25.287] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\x64\ExporterHost.dll
+[2026-06-14 08:31:25.289] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\x64\ExporterHost.dll
+[2026-06-14 08:31:25.289] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\info\DIC Swatch ReadMe.pdf
+[2026-06-14 08:31:25.291] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\info\How-To CFF Extension.pdf
+[2026-06-14 08:31:25.291] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\Config\DisplayLanguageNames.de_CH.txt
+[2026-06-14 08:31:25.291] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\Config\DisplayLanguageNames.el_GR_PREEURO.txt
+[2026-06-14 08:31:25.292] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Data\Config\msg_30.txt
+[2026-06-14 08:31:25.292] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Config\DisplayLanguageNames.de_CH.txt
+[2026-06-14 08:31:25.292] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Config\DisplayLanguageNames.el_GR_PREEURO.txt
+[2026-06-14 08:31:25.293] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\tmp\kubernetes\Resources\Config\msg_30.txt
+[2026-06-14 08:31:25.293] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\kobo_oezlem_demir.png
+[2026-06-14 08:31:25.293] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\kobo_oezlem_demir.psd
+[2026-06-14 08:31:25.293] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\kobo_oezlem_demir.svg
+[2026-06-14 08:31:25.294] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\rademir_stempel.png
+[2026-06-14 08:31:25.294] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\rademir_stempel.psd
+[2026-06-14 08:31:25.294] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\stempel_01.svg
+[2026-06-14 08:31:25.294] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\vk.png
+[2026-06-14 08:31:25.294] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\vk.svg
+[2026-06-14 08:31:25.295] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\vk_back.jpg
+[2026-06-14 08:31:25.295] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\print\kobo_oezlem_demir.jpg
+[2026-06-14 08:31:25.295] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\print\rademir_stempel.png
+[2026-06-14 08:31:25.296] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\print\vk_back.jpg
+[2026-06-14 08:31:25.296] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\print\vk_front.jpg
+[2026-06-14 08:31:25.296] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\ansicht\kobo_oezlem_demir.jpg
+[2026-06-14 08:31:25.296] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\ansicht\rademir_stempel.png
+[2026-06-14 08:31:25.297] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\oezlem\ansicht\vk_back.jpg
+[2026-06-14 08:31:25.297] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\.babelrc
+[2026-06-14 08:31:25.297] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\.eslintrc
+[2026-06-14 08:31:25.297] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\index.json
+[2026-06-14 08:31:25.297] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\jest.config.js
+[2026-06-14 08:31:25.298] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\package-lock.json
+[2026-06-14 08:31:25.298] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\package.json
+[2026-06-14 08:31:25.298] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\README.md
+[2026-06-14 08:31:25.299] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\app.ts
+[2026-06-14 08:31:25.299] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\client.ts
+[2026-06-14 08:31:25.299] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\index.html
+[2026-06-14 08:31:25.299] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\package-lock.json
+[2026-06-14 08:31:25.299] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\package.json
+[2026-06-14 08:31:25.300] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\tsconfig-client.json
+[2026-06-14 08:31:25.300] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\tsconfig-server.json
+[2026-06-14 08:31:25.300] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\types\NumInfo.ts
+[2026-06-14 08:31:25.301] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\dist\client.js
+[2026-06-14 08:31:25.301] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\number-app\dist\types\NumInfo.js
+[2026-06-14 08:31:25.301] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\app.ts
+[2026-06-14 08:31:25.301] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\numbers.json
+[2026-06-14 08:31:25.301] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\package-lock.json
+[2026-06-14 08:31:25.302] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\package.json
+[2026-06-14 08:31:25.302] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\readFile.ts
+[2026-06-14 08:31:25.302] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\readFileByName.ts
+[2026-06-14 08:31:25.302] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\strings.json
+[2026-06-14 08:31:25.303] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\tsconfig.json
+[2026-06-14 08:31:25.303] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\fs-json\writeFile.ts
+[2026-06-14 08:31:25.303] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\about.html
+[2026-06-14 08:31:25.303] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\app.ts
+[2026-06-14 08:31:25.303] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\data.json
+[2026-06-14 08:31:25.304] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\index.html
+[2026-06-14 08:31:25.304] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\package-lock.json
+[2026-06-14 08:31:25.304] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\x-Node\custom-server\package.json
+[2026-06-14 08:31:25.304] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\app.ts
+[2026-06-14 08:31:25.304] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\package-lock.json
+[2026-06-14 08:31:25.304] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\package.json
+[2026-06-14 08:31:25.305] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\tsconfig.json
+[2026-06-14 08:31:25.306] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\utils\getUniqueId.ts
+[2026-06-14 08:31:25.306] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Answer.ts
+[2026-06-14 08:31:25.306] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Attachment.ts
+[2026-06-14 08:31:25.306] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Image.ts
+[2026-06-14 08:31:25.306] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Question.ts
+[2026-06-14 08:31:25.307] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Summary.ts
+[2026-06-14 08:31:25.307] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\Unique.ts
+[2026-06-14 08:31:25.307] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\3-BufferUnderflow\entities\User.ts
+[2026-06-14 08:31:25.307] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\package.json
+[2026-06-14 08:31:25.308] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\tsconfig.json
+[2026-06-14 08:31:25.308] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\test\array.ts
+[2026-06-14 08:31:25.308] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\test\object.ts
+[2026-06-14 08:31:25.308] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\test\string.ts
+[2026-06-14 08:31:25.309] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\lib\array.ts
+[2026-06-14 08:31:25.309] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\lib\object.ts
+[2026-06-14 08:31:25.309] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-underdash\lib\string.ts
+[2026-06-14 08:31:25.309] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\app.ts
+[2026-06-14 08:31:25.310] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\package-lock.json
+[2026-06-14 08:31:25.310] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\package.json
+[2026-06-14 08:31:25.310] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\tsconfig.json
+[2026-06-14 08:31:25.311] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\utils\genUniqueId.ts
+[2026-06-14 08:31:25.311] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\utils\getBudgetSummary.ts
+[2026-06-14 08:31:25.311] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\utils\truncate.ts
+[2026-06-14 08:31:25.311] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\types\Month.ts
+[2026-06-14 08:31:25.312] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\enums\Category.ts
+[2026-06-14 08:31:25.312] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\Budget.ts
+[2026-06-14 08:31:25.312] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\Expense.ts
+[2026-06-14 08:31:25.313] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\TrackedMonth.ts
+[2026-06-14 08:31:25.313] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\lerning\santos_c_the_beginners_guide_to_typescript\beginners-guide-to-typescript-code\src\1-FinanceMe\entities\User.ts
+[2026-06-14 08:31:25.313] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\ihk_zeugniss.jpg
+[2026-06-14 08:31:25.313] DRYRUN	Datei wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_film\stefan_malte_homberg_portfolio.mp4
+[2026-06-14 08:31:25.314] INFO	Kandidatendatei erstellt	Typ=directory	Pfad=C:\Users\zerob\Documents\ibb\powershell\cleanup\20260614\cleanup_candidates_directory_d3391ad449804364b5fed1766328c57d.jsonl
+[2026-06-14 08:31:25.318] FIND_DIRECTORY_START	Pfad=C:\Users\zerob\Documents
+[2026-06-14 08:31:25.330] SKIP	ReparsePoint/SymbolicLink-Verzeichnis nicht traversiert bei Leerpruefung	Pfad=C:\Users\zerob\Documents\Eigene Bilder
+[2026-06-14 08:31:25.330] SKIP	ReparsePoint/SymbolicLink-Verzeichnis nicht traversiert bei Leerpruefung	Pfad=C:\Users\zerob\Documents\Eigene Musik
+[2026-06-14 08:31:25.331] SKIP	ReparsePoint/SymbolicLink-Verzeichnis nicht traversiert bei Leerpruefung	Pfad=C:\Users\zerob\Documents\Eigene Videos
+[2026-06-14 08:31:25.380] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\ranadalmatina\docker_trafik_portainer\wireguard	LastWriteTime=2026-03-04 19:00:16
+[2026-06-14 08:31:25.388] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\privat\gez	LastWriteTime=2024-10-14 13:31:15
+[2026-06-14 08:31:25.391] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\Neuer Ordner	LastWriteTime=2024-12-10 09:52:11
+[2026-06-14 08:31:26.378] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\kunsthaus_koldenhof\2024\print\20240427_homberg_scheib\worx\webansicht	LastWriteTime=2024-02-23 13:21:49
+[2026-06-14 08:31:26.379] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\kunsthaus_koldenhof\2024\print\20240427_homberg_scheib\worx\vorstufe	LastWriteTime=2024-02-23 13:20:56
+[2026-06-14 08:31:26.433] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\Unbenanntes Projekt_assets\protobuf_data	LastWriteTime=2024-09-05 09:14:21
+[2026-06-14 08:31:26.436] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\teste	LastWriteTime=2024-09-07 17:55:16
+[2026-06-14 08:31:26.440] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_assets\protobuf_data	LastWriteTime=2024-09-05 11:26:42
+[2026-06-14 08:31:26.442] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\title	LastWriteTime=2024-09-07 17:12:11
+[2026-06-14 08:31:26.443] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\thumbnail	LastWriteTime=2024-09-07 17:12:11
+[2026-06-14 08:31:26.444] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\protobuf_data	LastWriteTime=2024-09-07 17:12:11
+[2026-06-14 08:31:26.445] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\blender	LastWriteTime=2024-09-07 17:12:11
+[2026-06-14 08:31:26.450] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\esv_kiosk_app_assets\protobuf_data	LastWriteTime=2024-09-07 12:20:30
+[2026-06-14 08:31:26.481] FOUND_EMPTY_DIR	Pfad=C:\Users\zerob\Documents\andreas_homberg\website\private	LastWriteTime=2026-05-20 09:10:20
+[2026-06-14 08:31:26.523] SKIP	Startverzeichnis wird nicht geloescht	Pfad=C:\Users\zerob\Documents
+[2026-06-14 08:31:26.523] PHASE_SUMMARY	Verzeichnissuche abgeschlossen	FoundDirectoryCount=14
+[2026-06-14 08:31:26.528] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\ranadalmatina\docker_trafik_portainer\wireguard
+[2026-06-14 08:31:26.528] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\privat\gez
+[2026-06-14 08:31:26.530] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\Neuer Ordner
+[2026-06-14 08:31:26.530] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\kunsthaus_koldenhof\2024\print\20240427_homberg_scheib\worx\webansicht
+[2026-06-14 08:31:26.531] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\kunsthaus_koldenhof\2024\print\20240427_homberg_scheib\worx\vorstufe
+[2026-06-14 08:31:26.531] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\Unbenanntes Projekt_assets\protobuf_data
+[2026-06-14 08:31:26.532] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\teste
+[2026-06-14 08:31:26.532] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_assets\protobuf_data
+[2026-06-14 08:31:26.534] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\title
+[2026-06-14 08:31:26.534] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\thumbnail
+[2026-06-14 08:31:26.535] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\protobuf_data
+[2026-06-14 08:31:26.535] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\eufrak_ihk_02_assets\blender
+[2026-06-14 08:31:26.536] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\bewerbung\portfolio_mp4\esv_kiosk_app_assets\protobuf_data
+[2026-06-14 08:31:26.536] DRYRUN	Leeres Verzeichnis wuerde geloescht werden	Pfad=C:\Users\zerob\Documents\andreas_homberg\website\private
+[2026-06-14 08:31:26.536] 
+[2026-06-14 08:31:26.538] ================================================================================
+[2026-06-14 08:31:26.538] ZUSAMMENFASSUNG
+[2026-06-14 08:31:26.538] ================================================================================
+[2026-06-14 08:31:26.538] Gefundene alte Dateien              : 93
+[2026-06-14 08:31:26.538] Gefundene leere Verzeichnisse       : 14
+[2026-06-14 08:31:26.538] Geloeschte Dateien                  : 0
+[2026-06-14 08:31:26.539] Geloeschte Verzeichnisse            : 0
+[2026-06-14 08:31:26.539] Uebersprungene Eintraege            : 6
+[2026-06-14 08:31:26.539] Fehler                              : 0
+[2026-06-14 08:31:26.539] Endzeit                             : 2026-06-14 08:31:26
+[2026-06-14 08:31:26.539] ================================================================================
+[2026-06-14 08:31:26.551] INFO	Kandidatendatei entfernt	Pfad=C:\Users\zerob\Documents\ibb\powershell\cleanup\20260614\cleanup_candidates_file_ce427e6c9aa24f568e22c603be9b1f24.jsonl
+[2026-06-14 08:31:26.552] INFO	Kandidatendatei entfernt	Pfad=C:\Users\zerob\Documents\ibb\powershell\cleanup\20260614\cleanup_candidates_directory_d3391ad449804364b5fed1766328c57d.jsonl

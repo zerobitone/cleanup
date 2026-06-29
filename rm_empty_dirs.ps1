@@ -61,19 +61,19 @@
     *\DoNotDelete
 
 .EXAMPLE
-    .\cleanup_empty_dirs.ps1 -Path "N:\IT-BL" -DryRun
+    .\rm_empty_dirs.ps1 -Path "N:\IT-BL" -DryRun
 
 .EXAMPLE
-    .\cleanup_empty_dirs.ps1 -Path "N:\IT-BL" -ExcludePattern "*\DoNotDelete" -DryRun
+    .\rm_empty_dirs.ps1 -Path "N:\IT-BL" -ExcludePattern "*\DoNotDelete" -DryRun
 
 .EXAMPLE
-    .\cleanup_empty_dirs.ps1 -Path "N:\IT-BL" -ExcludePatternFile "C:\Cleanup\exclude_dirs.txt" -DryRun
+    .\rm_empty_dirs.ps1 -Path "N:\IT-BL" -ExcludePatternFile "C:\Cleanup\exclude_dirs.txt" -DryRun
 
 .EXAMPLE
-    .\cleanup_empty_dirs.ps1 -Path "N:\IT-BL" -LogPath "C:\CleanupLogs" -DryRun
+    .\rm_empty_dirs.ps1 -Path "N:\IT-BL" -LogPath "C:\CleanupLogs" -DryRun
 
 .EXAMPLE
-    .\cleanup_empty_dirs.ps1 -Path "\\ibbads\data\IT-BL" -WhatIf
+    .\rm_empty_dirs.ps1 -Path "\\ibbads\data\IT-BL" -WhatIf
 
 .NOTES
     Autor:
@@ -306,10 +306,16 @@ function Add-CleanupLog {
     }
 
     $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss.fff"
-    $script:LogWriter.WriteLine("[{0}] {1}" -f $timestamp, $Message)
+
+    # Wichtig:
+    # Formatierung zuerst in eine Variable schreiben.
+    # Nicht direkt in WriteLine() mit -f arbeiten, weil PowerShell sonst
+    # die Argumente in Methodenaufrufen falsch binden kann.
+    $line = "[{0}] {1}" -f $timestamp, $Message
+
+    $script:LogWriter.WriteLine($line)
     $script:LogLineCount++
 
-    # Kompromiss zwischen Performance und Verlustbegrenzung bei hartem Abbruch.
     if (($script:LogLineCount % 1000) -eq 0) {
         $script:LogWriter.Flush()
     }
